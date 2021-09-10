@@ -1,0 +1,236 @@
+.cuerpo{
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.logo{
+	color: white;
+	font-family: 'Reggae One', cursive;
+	font-size: 38px;	
+	padding-top: 10px;
+}
+
+header, #nav a {
+  background-color: black;
+  color: white; 
+  font-family: 'KoHo', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#nav li a:hover{
+	transform: translateY(-10px);
+	transition: 1.5s;
+}
+
+.carousel{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.video{
+	display: flex;
+	justify-content: center;
+	margin: 20px 380px 10px 400px;
+	border: groove 2px black;
+	transition: 1s;
+
+}
+
+.video:hover{
+	transform: translateY(-10px);
+
+}
+
+.parrafoH4{
+	color: white;
+	font-family: 'KoHo', sans-serif;
+	text-align: left;
+	padding:40px 30px 0 0;
+	margin-left: 70px;
+	font-size: 30px;
+	text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+.parrafoH4:hover, .parrafoH4:focus {
+    background-size: 100% 2px;
+}
+
+.parrafoh4{
+	color:white;
+	font-family: 'KoHo', sans-serif;
+	text-align: left;
+	padding:10px 30px 30px 0;
+	margin-left: 70px;
+}
+
+.menu{
+	color: white;
+	font-family: 'KoHo', sans-serif;
+	text-align: left;
+	padding:0 30px 0 0;
+	margin-left: 10px;
+	font-size: 30px;
+	text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+.menu:hover, .menu:focus {
+    background-size: 100% 2px;
+}
+
+.list{
+	list-style: none;
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.lista{
+	list-style: none;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.mapa{
+	padding-top: 20px;
+}
+
+.infoPedidos{
+	color: white;
+	font-family: 'KoHo', sans-serif;
+	text-align: center;
+	padding: 20px 20px 10px 20px;
+	margin: 150px 0 190px 0;
+}
+
+/* grids Productos*/
+
+.gridsProductos{
+	width: 90%;
+	margin: 20px auto;
+	padding-bottom: 27px;
+	display: grid;
+	grid-template-columns: 600px 600px;
+	grid-template-rows: repeat(2, auto);
+	grid-template-areas: "sectionImagen sectionParrafo";
+
+}
+
+.sectionImagen{
+	grid-area: sectionImagen;
+	padding-top: 50px;
+}
+
+.sectionParrafo{
+	grid-area: sectionParrafo;
+	font-family: 'KoHo', sans-serif;
+	color: white;
+	padding-top: 40px;
+	padding-right: 20px;
+}
+
+/*grids productos */
+
+/*pedidos*/
+
+.card-deck{
+	display: flex;
+	justify-content: center;
+	margin: 20px 10px 30px 10px;
+}
+
+/*pedidos*/
+
+/*grids footer */
+
+.gridFooter{
+	width: 90%;
+	margin: 20px auto;
+	display: grid;
+	grid-template-rows: repeat(1, auto);
+	grid-template-areas: "sectionFooter sectionFooter1";
+	height: 100px;
+	width: 300px;
+}	
+
+.sectionFooter{
+	grid-area: sectionFooter;
+	transform: scale(0.7, 0.7);
+	display: flex;
+	justify-content: flex-end;
+}
+
+.sectionFooter1{
+	grid-area: sectionFooter1;
+	color: white;
+	list-style: none;
+	font-family: 'KoHo', sans-serif;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 27px;
+	padding-left: 3px;
+}
+
+/* grids footer */
+
+
+/* botones */
+
+#btn{
+	font-weight: 100px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+    border: 1.5px solid white;
+    font-family: 'KoHo', sans-serif;
+  }
+#btn:hover{
+    color: red;
+
+}
+
+#btn1{
+	font-weight: 100px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+    border: 1.5px solid white;
+    font-family: 'KoHo', sans-serif;
+  }
+#btn1:hover{
+    color: red;
+
+}
+
+
+#btn2{
+	font-weight: 100px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+    border: 1.5px solid white;
+    font-family: 'KoHo', sans-serif;
+  }
+#btn2:hover{
+    color: red;
+
+}
+
+/* botones */
+
